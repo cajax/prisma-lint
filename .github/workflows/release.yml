@@ -39,11 +39,11 @@ jobs:
       - name: Build
         run: yarn build
 
-      - name: Publish to NPM
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npm publish
+      # - name: Publish to NPM
+      #   env:
+      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      #   run: npm publish
 
       - name: Generate release notes
         id: release-notes
