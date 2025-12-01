@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 0.11.1 (2025-12-01)
+
 ## 0.11.0 (2025-11-07)
 
 - Add new rule `enum-value-case`.
